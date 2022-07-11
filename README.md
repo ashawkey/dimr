@@ -155,7 +155,7 @@ python util/visualize.py --task instance_pred --room_name all
 ### Evaluation
 
 We provide 4 metrics for evaulation the instance mesh reconstruction quality.
-For the IoU evaluation, we rely on [binvox](https://www.patrickmin.com/binvox/) to voxelize meshes (via trimesh), so make sure it can be found in the system path.
+For the IoU evaluation, we rely on [binvox](https://www.patrickmin.com/binvox/) to voxelize meshes (via trimesh's API), so make sure it can be found in the system path.
 
 ```bash
 ## first, prepare GT instance meshes 
@@ -175,7 +175,7 @@ python evaluation/lfd/eval.py ./datasets/gt_meshes ./pred_meshes
 python evaluation/pcr/eval.py ./pred_meshes
 ```
 
-We provide the meshes used in our evaluation for reproduction [here](https://drive.google.com/file/d/1_z0nHZQ86-WApr3J0Lw1OV3fL4rrh_V4/view?usp=sharing), it includes the output meshes from `RfD-Net, Ours, Ours-project, and Ours-retrieval`.
+We provide the meshes used in our evaluation for reproduction [here](https://drive.google.com/file/d/1_z0nHZQ86-WApr3J0Lw1OV3fL4rrh_V4/view?usp=sharing), it includes the output meshes from `RfD-Net, Ours, Ours-projection, and Ours-retrieval`.
 
 The GT meshes can also be found [here](https://drive.google.com/file/d/1ArUgyoSfXuSP34Asf0HrZYbd28yPm0vQ/view?usp=sharing).
 
