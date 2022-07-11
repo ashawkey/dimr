@@ -1,0 +1,11 @@
+torch
+open3d
+plyfile
+tensorboardX
+scipy
+numpy
+Shapely
+pandas
+pyMCubes
+maplotlib
+trimesh

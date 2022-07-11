@@ -1,0 +1,6 @@
+[submodule "lib/spconv"]
+	path = lib/spconv
+	url = https://github.com/llijiang/spconv
+[submodule "lib/light-field-distance"]
+	path = lib/light-field-distance
+	url = https://github.com/ashawkey/light-field-distance
