@@ -2,7 +2,11 @@
 
 This repository contains the official implementation for the paper: [Point Scene Understanding via Disentangled Instance Mesh Reconstruction](https://arxiv.org/abs/2203.16832).
 
-[Project Page](TODO) | [Arxiv](https://arxiv.org/abs/2203.16832) | [Data](https://drive.google.com/drive/folders/1pzJ-PIe9pGjf0yNwfAU5zjQ4YMKJYbno?usp=sharing)
+### [Project Page](https://ashawkey.github.io/dimr/) | [Arxiv](https://arxiv.org/abs/2203.16832) | [Data](https://drive.google.com/drive/folders/1pzJ-PIe9pGjf0yNwfAU5zjQ4YMKJYbno?usp=sharing)
+
+
+![dimr](./assets/dimr.png)
+
 
 ### Installation
 
@@ -109,7 +113,7 @@ The repository depends on a modified `spconv` from [pointgroup](https://github.c
 
 * download the pretrained BSP-Net checkpoint and extracted GT latent codes [here](https://drive.google.com/file/d/1lKCrwM9aA9CWyD_baoIuxt7VCNV17WLR/view?usp=sharing).
 
-  If you want to generate them by yourself, please check the [BSP_CVAE repository](https://github.com/ashawkey/BSP_CVAE) to generate the ground truth latent shape codes (`zs` folder), the pretrained model (`model.pth`), and the assistant code database (`database_scannet.npz`).
+  If you want to generate them by yourself, please check the [BSP_CVAE repository](https://github.com/ashawkey/bsp_cvae) to generate the ground truth latent shape codes (`zs` folder), the pretrained model (`model.pth`), and the assistant code database (`database_scannet.npz`).
 
 
 ### Training
