@@ -1,5 +1,5 @@
 __pycache__/
-*log*
+*log*.txt
 
 cache_*/
 exp*/
